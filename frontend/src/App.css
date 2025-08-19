@@ -1,0 +1,63 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.status {
+  background: #f0f8ff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.section h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.user,
+.block,
+.transaction {
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 3px;
+  border-left: 4px solid #007bff;
+}
+
+input,
+select,
+button {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.block h3 {
+  margin: 0 0 10px 0;
+  color: #007bff;
+}
+
+.transaction {
+  border-left-color: #28a745;
+}
